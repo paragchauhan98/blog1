@@ -1,0 +1,26 @@
+<app-navbar></app-navbar>
+<section>
+    <div class="heading" data-aos="fade-up"data-aos-duration="1000">
+        <p class="main-heading"><em>Pixels </em><span class="sub-heading">All Posts &darr;</span></p>
+    </div>
+
+    <div class="row col-lg-12 col-md-12" data-aos="fade-up"data-aos-duration="1500">
+        <ng-container *ngFor="let post of allPosts;let i=index">
+            <div class="pixel col-lg-3 " 
+            *ngIf="post.category==='Pixels'">
+       
+              <img src={{post.image1}}>
+              <div class="date">&nbsp; {{post.date}} &nbsp;</div>
+              <div class="tag-1">&nbsp;&#9734; {{post.tag}} &nbsp;</div>
+              <div class="title-1">
+                  
+                <a [routerLink]="['/singlePost/',post._id]"> <p>{{post.title}}</p></a>
+            </div>
+         
+            </div>
+          </ng-container>
+          </div>
+ 
+</section>
+<br>
+<br>

@@ -1,0 +1,80 @@
+
+section{
+    margin: 25px;
+}
+.main-heading{
+    color: black;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.sub-heading{
+    font-size: 14px;
+    font-weight: normal;
+    color:black;
+}
+.row{
+    margin-left: 1px;
+        height: auto;
+    }
+    .pixel{
+    position: relative;
+       margin-top: 10px;
+        border-radius: 20px;
+    }
+    .pixel img{
+        width: 100%;
+        border-radius: 20px;
+        height: 350px;
+    
+       
+    }
+    
+    .date{
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        background-color: rgba(147, 79, 179, 0.9);
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        border-bottom: 1px solid black;
+    }
+    .title-1{
+        position: absolute;
+        bottom: 15px;
+        right:15px;
+       max-width: 200px;
+    
+    }
+    .title-1 p{
+        text-align: left;
+        display: inline;
+        background-color: rgba(196, 170, 209, 0.9);
+        font-size: 25px;
+       padding-top: 11px;
+       border: 3px solid rgb(181, 66, 253);
+      
+    }
+    .title-1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .tag-1{
+        position: absolute;
+        top: 35px;
+        left: 15px;
+        background-color:black;
+        color: white;
+        border-radius: 20px;
+        border: 1px solid rgba(147, 79, 179, 0.9);
+        font-size: 13px;
+        
+    }

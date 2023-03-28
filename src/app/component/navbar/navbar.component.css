@@ -1,0 +1,27 @@
+.navbar{
+   background-color: transparent;
+   margin-top: -10px;
+  
+    /* background-color:rgba(0, 0, 0,.4) ; */
+    /* background-blend-mode: color; */
+    /* box-shadow: 0 1rem 3rem  rgba(black,.5); */
+}
+.navbar-brand{
+    font-weight: 500;
+    font-size: 30px;
+   
+}
+#navbarSupportedContent{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    align-content: center;
+}
+#navbarSupportedContent .nav-link{
+color:black;
+}
+#navbarSupportedContent .nav-link:hover{
+margin-top: -2px;
+font-weight: 500;
+border-bottom: 1px solid black;
+}

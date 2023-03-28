@@ -1,0 +1,111 @@
+
+section{
+    margin: 25px;
+}
+.main-heading{
+    color: black;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.sub-heading{
+    font-size: 14px;
+    font-weight: normal;
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid black;
+ 
+}
+
+.row{
+margin-left: 1px;
+    height: auto;
+}
+.pixel{
+position: relative;
+   margin-top: 10px;
+    border-radius: 20px;
+}
+.pixel img{
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+
+   
+}
+
+.date{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background-color: rgba(221, 221, 221, 0.9);
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.title-1{
+    position: absolute;
+    bottom: 5px;
+    right:10px;
+   max-width: 200px;
+
+}
+.title-1 p{
+    text-align: left;
+    display: inline;
+    background-color: rgba(250, 235, 215, 0.762);
+    font-size: 25px;
+   padding-top: 11px;
+   border: 3px solid yellowgreen;
+  
+}
+
+.tag-1{
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.781);
+    font-size: 13px;
+    
+}
+/*slider*
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body { font-family: sans-serif; }
+  
+  .gallery {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number *
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }/*/
+
+  /*3d slider */
+ 

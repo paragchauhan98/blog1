@@ -1,0 +1,10 @@
+.page{
+    background-color: #FFF;
+    border-radius: 20px;
+   
+}
+@media screen and (max-width: 768px) {
+    .page{
+        border-radius: 0px;
+    }
+}

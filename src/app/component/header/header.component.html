@@ -1,0 +1,65 @@
+<app-navbar></app-navbar>
+<header>
+    <div class="heading" data-aos="fade-up"data-aos-duration="1000">
+        <p class="main-heading"><em>Best of me </em><span class="sub-heading">See all posts &rarr;</span></p>
+    </div>
+
+    <div class="row col-lg-12" data-aos="fade-up"data-aos-duration="1500">
+        <ng-container *ngFor="let post of allPosts;let i= index">
+        <div class="image-1 col-lg-9 col-md-9" *ngIf="i==0">
+      
+            <img src="../../../assets/images/computer.png" class="img-responsive fit-image img-fluid">
+            <div class="date">&nbsp; {{post.date}} &nbsp;</div>
+            <div class="tag">&nbsp;&#9734; Self &nbsp;</div>
+            <div class="title">
+                
+                <a [routerLink]="['/singlePost/',post._id]"> <p>{{post.title}}</p></a>
+            </div>
+                <div class="link">
+                    <p><a [routerLink]="['/singlePost/',post._id]">&#8599;</a></p>
+                </div>
+            
+        </div>
+        </ng-container>
+        <div class="image-2 col-lg-3 col-md-3" data-aos="fade-up"data-aos-duration="1500">
+            <ng-container *ngFor="let post of allPosts;let i=index">
+           <div class="two col-lg-12 col-md-12" *ngIf="post.category=='Pages' && i >(allPosts.length-3)"  >
+            <img src={{post.image1}} class="img-responsive fit-image-2">
+            <div class="date-1">&nbsp; {{post.date}} &nbsp;</div>
+            <div class="tag-1">&nbsp;&#9734; {{post.category}} &nbsp;</div>
+            <div class="title-1">
+                
+                <a [routerLink]="['/singlePost/',post._id]"> <p>{{post.title}}</p></a>
+            </div>
+                <div class="link-1">
+                    <p><a [routerLink]="['/singlePost/',post._id]">&#8599;</a></p>
+                </div>
+                
+            </div><br>
+        </ng-container>
+            <div class="three col-lg-12 col-md-12" >
+                <img src="../../../assets/images/fox.webp" class="img-responsive fit-image-3">
+           
+                <div class="title-2">
+                    
+                    <p>Check Out more of us</p>
+                </div>
+                    <div class="link-2">
+                        <a [routerLink]="['/pixels']"><p class="first">Pixels</p></a>
+                        <a [routerLink]="['/pages']">   <p class="second">Pages</p></a>
+                    </div>
+            </div>
+           </div>
+      
+    </div>
+    </header>
+
+<app-features></app-features>
+<br>
+<app-pixel-section></app-pixel-section>
+<br>
+<app-pages-section></app-pages-section>
+<br>
+<app-connect></app-connect>
+<br>
+

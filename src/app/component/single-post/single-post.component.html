@@ -1,0 +1,41 @@
+
+<app-navbar></app-navbar>
+
+<article >
+    <ng-container *ngFor="let post of singlePost">
+        <ng-container *ngIf="post._id==id;">
+          
+    <div class="info col-lg-12 col-md-12"  >
+        <span>{{post.date}}</span><hr><span>Book</span><hr><span>{{post.tag}}</span><hr><span>{{post.username}}</span>
+    </div>
+    <div class="heading"  data-aos="fade-up"data-aos-duration="1000">
+        <p>{{post.title}}</p>
+    </div>
+    <div class="row col-lg-12 col-md-12" >
+        <div class="post col-lg-8 col-md-8" data-aos="fade-up"data-aos-duration="1500">
+<p class="article">
+    {{post.content1}}
+    <br>  <br>
+
+    {{post.content2}}
+    <br>  <br>
+    {{post.content3}}
+    <br>  <br>
+    {{post.content4}}
+    <br>  <br>
+    {{post.content5}}
+    <br>
+    <br>
+</p>
+        </div>
+        <div class="image col-lg-4 col-md-4"data-aos="fade-up"data-aos-duration="3000">
+            <img class="first" src="{{post.image1}}">
+            <img class="second" src={{post.image2}}>
+        </div>
+    </div>
+</ng-container>
+</ng-container>
+</article>
+<br>
+
+

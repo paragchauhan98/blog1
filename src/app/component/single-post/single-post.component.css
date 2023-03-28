@@ -1,0 +1,105 @@
+
+article{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.heading{
+    color: black;
+    font-size: 64px;
+    font-weight: normal;
+    max-width: 70%;
+
+}
+.post p::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+    /* font-style: italic; */
+    white-space: wrap;
+}
+.image{
+  margin-top: -120px;
+    height: auto;
+}
+
+.image .first{
+    clip-path: polygon(0 0, 100% 0, 92% 57%, 14% 100%, 22% 71%, 7% 60%);
+border: 0px solid #000000;
+    width: 100%;
+    height: 500px;
+}
+.image .second{
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 75%, 79% 93%, 36% 100%, 4% 74%, 68% 65%, 0 46%, 11% 13%);
+border: 0px solid #000000;
+    width: 100%;
+    height: 500px;
+}
+/* clip-path: polygon(0 0, 51% 77%, 100% 30%, 100% 70%, 52% 24%, 0 100%, 0 100%, 0% 30%); */
+.info{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    animation: infodetails 1s linear;
+}
+.info span{
+margin: 20px;    
+padding: 5px;
+
+}
+hr{
+    display: none;
+}
+
+@keyframes infodetails{
+    0%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@media screen and (max-width: 768px){
+    *{
+        margin: 0;
+    }
+    .info{
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+        animation: infodetails 1s linear;
+    }
+    .info span{
+    margin: 0px;    
+    padding: 0px;
+    
+    }
+    hr{
+        display: block;
+        width: 100%;
+    }
+    
+article{
+    margin-left: 0px;
+}
+.heading{
+    font-size: 10vw;
+text-align: center;
+    max-width: 100%;
+}
+.image{
+    margin-top: 0px;
+      height: auto;
+  }
+  
+  .image .first{
+     
+      width: 100%;
+      height: 300px;
+  }
+  .image .second{
+    
+      height: 300px;
+  }
+
+
+}

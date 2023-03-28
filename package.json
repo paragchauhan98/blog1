@@ -1,0 +1,45 @@
+{
+  "name": "pixelandpages",
+  "version": "0.0.0",
+  "description": "Pixels&Pages is a dynamic and engaging blogging website that focuses on two key areas: tech blog and book review. I deliver in-depth articles covering the latest developments in technology, including gadgets, social media, digital media, web design, smartphones,electrical vehicle, and artificial intelligence. We also provide honest and insightful book reviews on a wide range of genres, helping our readers discover new titles and authors. we offer high-quality blog writing that engages readers and drives traffic. Whether you are looking for the latest tech news or want to explore the world of books, Pixels&Pages has got you covered. Join our community today and stay informed about the latest trends in tech and literature.",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "author": "Parag Chauhan",
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~13.3.0",
+    "@angular/cdk": "^13.3.9",
+    "@angular/common": "~13.3.0",
+    "@angular/compiler": "~13.3.0",
+    "@angular/core": "~13.3.0",
+    "@angular/forms": "~13.3.0",
+    "@angular/platform-browser": "~13.3.0",
+    "@angular/platform-browser-dynamic": "~13.3.0",
+    "@angular/router": "~13.3.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.3",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~13.3.3",
+    "@angular/cli": "~13.3.3",
+    "@angular/compiler-cli": "~13.3.0",
+    "@types/aos": "^3.0.4",
+    "@types/jasmine": "~3.10.0",
+    "@types/node": "^12.11.1",
+    "jasmine-core": "~4.0.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.1.0",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "typescript": "~4.6.2"
+  }
+}

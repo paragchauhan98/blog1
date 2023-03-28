@@ -1,0 +1,19 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+*{
+margin: 0px ;
+padding: 0px ;
+}
+body{
+    background-color: #fff;
+    font-family: roboto;
+    margin:30px ;
+    background-color: black;
+}
+@media screen and (max-width: 768px) {
+    body {
+     margin: 0px;
+     
+    }
+  }
+
+
